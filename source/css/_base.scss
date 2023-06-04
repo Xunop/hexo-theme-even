@@ -15,6 +15,11 @@ body {
   line-height: $global-lineheight;
   color: $global-font-color;
   background: $global-background;
+  background-image: url(https://images-1310117338.cos.ap-nanjing.myqcloud.com/homepage%2Fbackground-img.webp);
+  background-position: 0% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 800px;
   scroll-behavior: smooth;
   border-top: 3px solid $theme-color;
 

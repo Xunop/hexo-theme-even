@@ -34,6 +34,9 @@
 {#- Theme styling -#}
 <link rel="stylesheet" type="text/css" href="{{ url_for('css/style.css') }}?v={{ theme.version }}" />
 
+{#- satisfy font -#}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/satisfy@5.0.2/index.min.css">
+
 {#- Analytics and push -#}
 {%- if not env.debug -%}
   {%- include "../_script/analytics.swig" -%}

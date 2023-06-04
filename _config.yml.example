@@ -18,10 +18,10 @@ rss: default
 # ===========================================
 menu:
   Home: /
-  # Archives: /archives/
-  # Tags: /tags/
-  # Categories: /categories/
-  # About: /about/
+  Archives: /archives/
+  Tags: /tags/
+  Categories: /categories/
+  About: /about/
 
 # ===========================================
 # Theme Settings
@@ -30,7 +30,7 @@ menu:
 color: default
 
 # default page mode: default | archives
-mode: default
+mode: archives
 
 toc: true
 
