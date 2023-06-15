@@ -23,6 +23,23 @@
         data-page-url="{{ page.permalink }}"
         data-page-title="{{ page.title }}"
       ></div>
+    {%- elif theme.giscus.enable -%}
+      <script src="https://giscus.app/client.js"
+        data-repo="Xunop/blog"
+        data-repo-id="R_kgDOJrQaEw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOJrQaE84CXOlp"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
     {%- endif -%}
   </div>
 {%- endif -%}
