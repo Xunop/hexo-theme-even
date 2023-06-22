@@ -132,6 +132,9 @@ utterances:
 
 giscus:
   enable: true
+
+markdown:
+  preset: 'default'
 # ===========================================
 # Version
 # ===========================================
